@@ -1,10 +1,8 @@
 package br.com.andre.acesso_api.adapter.repositories;
 
-import br.com.andre.acesso_api.adapter.entities.PessoaEntity;
 import br.com.andre.acesso_api.adapter.entities.UsuarioEntity;
-import br.com.andre.acesso_api.core.domain.Pessoa;
 import br.com.andre.acesso_api.core.domain.Usuario;
-import br.com.andre.acesso_api.core.ports.UsuarioRepositoryPort;
+import br.com.andre.acesso_api.core.ports.output.UsuarioRepositoryPort;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;

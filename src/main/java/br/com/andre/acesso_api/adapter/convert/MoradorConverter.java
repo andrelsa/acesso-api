@@ -15,7 +15,7 @@ public class MoradorConverter {
                 moradorDto.getId(),
                 moradorDto.getCpf(),
                 moradorDto.getEndereco(),
-                moradorDto.getCeluar(),
+                moradorDto.getCelular(),
                 new Pessoa(null, moradorDto.getNome()));
     }
 

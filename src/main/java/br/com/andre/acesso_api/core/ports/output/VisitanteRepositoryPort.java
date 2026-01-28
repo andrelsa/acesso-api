@@ -1,4 +1,4 @@
-package br.com.andre.acesso_api.core.ports;
+package br.com.andre.acesso_api.core.ports.output;
 
 import br.com.andre.acesso_api.core.domain.Visitante;
 

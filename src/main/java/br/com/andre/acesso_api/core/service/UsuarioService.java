@@ -1,8 +1,8 @@
 package br.com.andre.acesso_api.core.service;
 
 import br.com.andre.acesso_api.core.domain.Usuario;
-import br.com.andre.acesso_api.core.ports.UsuarioRepositoryPort;
-import br.com.andre.acesso_api.core.ports.UsuarioServicePort;
+import br.com.andre.acesso_api.core.ports.output.UsuarioRepositoryPort;
+import br.com.andre.acesso_api.core.ports.input.UsuarioServicePort;
 
 public class UsuarioService implements UsuarioServicePort {
 

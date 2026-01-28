@@ -3,7 +3,7 @@ package br.com.andre.acesso_api.adapter.controller;
 import br.com.andre.acesso_api.adapter.convert.VisitanteConverter;
 import br.com.andre.acesso_api.adapter.dto.VisitanteDto;
 import br.com.andre.acesso_api.core.domain.Visitante;
-import br.com.andre.acesso_api.core.ports.VisitanteServicePort;
+import br.com.andre.acesso_api.core.ports.input.VisitanteServicePort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

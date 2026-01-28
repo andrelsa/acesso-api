@@ -2,7 +2,7 @@ package br.com.andre.acesso_api.adapter.repositories;
 
 import br.com.andre.acesso_api.adapter.entities.VisitanteEntity;
 import br.com.andre.acesso_api.core.domain.Visitante;
-import br.com.andre.acesso_api.core.ports.VisitanteRepositoryPort;
+import br.com.andre.acesso_api.core.ports.output.VisitanteRepositoryPort;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;

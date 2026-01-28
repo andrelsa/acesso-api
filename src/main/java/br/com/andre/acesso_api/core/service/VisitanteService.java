@@ -1,11 +1,11 @@
 package br.com.andre.acesso_api.core.service;
 
 import br.com.andre.acesso_api.core.domain.Visitante;
-import br.com.andre.acesso_api.core.ports.VisitanteRepositoryPort;
-import br.com.andre.acesso_api.core.ports.VisitanteServicePort;
+import br.com.andre.acesso_api.core.exceptions.BusinessException;
+import br.com.andre.acesso_api.core.ports.output.VisitanteRepositoryPort;
+import br.com.andre.acesso_api.core.ports.input.VisitanteServicePort;
 
 import java.util.Collection;
-import java.util.List;
 
 public class VisitanteService implements VisitanteServicePort {
 
@@ -19,7 +19,7 @@ public class VisitanteService implements VisitanteServicePort {
     public Visitante createVisitante(Visitante visitante) {
         visitanteRepositoryPort.obtainByRg(visitante.getRg())
                 .ifPresent(v -> {
-                    throw new IllegalArgumentException("Visitante já cadastrado!");
+                    throw new BusinessException("Visitante já cadastrado!");
 
                 });
 

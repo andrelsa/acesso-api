@@ -2,7 +2,7 @@ package br.com.andre.acesso_api.adapter.controller;
 
 import br.com.andre.acesso_api.adapter.convert.UsuarioConverter;
 import br.com.andre.acesso_api.adapter.dto.UsuarioDto;
-import br.com.andre.acesso_api.core.ports.UsuarioServicePort;
+import br.com.andre.acesso_api.core.ports.input.UsuarioServicePort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

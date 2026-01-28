@@ -13,5 +13,5 @@ public class MoradorDto {
     private String nome;
     private String cpf;
     private String endereco;
-    private String celuar;
+    private String celular;
 }
